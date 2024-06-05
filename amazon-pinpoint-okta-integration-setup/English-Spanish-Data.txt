@@ -1,0 +1,99 @@
+English Voice Sample
+
+{
+  "id": {
+    "S": "2"
+  },
+  "messagetype": {
+    "S": "voice"
+  },
+ "language": {
+    "S": "EN-US"
+  },
+  "message":{
+      "S":"<speak>Your One-Time Passcode from the AWS Pinpoint project is <emphasis> @otp </emphasis><amazon:effect phonation='soft'>Thank you for list.</amazon:effect></speak>"
+  },
+  "pinpointlanguage": {
+    "S": "en-US"
+  },
+  "voiceid": {
+    "S": "Matthew"
+  }
+}
+
+------------------------
+Spanish Voice Sample
+
+
+{
+  "id": {
+    "S": "3"
+  },
+  "messagetype": {
+    "S": "voice"
+  },
+ "language": {
+    "S": "ES-MX"
+  },
+  "message":{
+      "S":"<speak>Su código de acceso de un solo uso del proyecto AWS Pinpoint es <emphasis> @otp </emphasis><amazon:effect phonation='soft'>Gracias por la lista.</amazon:effect></speak>"
+  },
+  "pinpointlanguage": {
+    "S": "es-MX"
+  },
+  "voiceid": {
+    "S": "Mia"
+  }
+}
+
+------------------------
+
+English SMS Sample
+
+
+{
+  "id": {
+    "S": "1"
+  },
+  "messagetype": {
+    "S": "sms"
+  },
+ "language": {
+    "S": "EN-US"
+  },
+  "message":{
+      "S":"Your One-Time Passcode from the AWS Pinpoint project is @otp."
+  },
+  "pinpointlanguage": {
+    "S": "en-US"
+  },
+  "voiceid": {
+    "S": ""
+  }
+}
+
+--------------------
+
+Spanish SMS Sample
+
+{
+  "id": {
+    "S": "4"
+  },
+  "messagetype": {
+    "S": "sms"
+  },
+ "language": {
+    "S": "ES-MX"
+  },
+  "message":{
+      "S":"Su código de acceso de un solo uso del proyecto AWS Pinpoint es @otp."
+  },
+  "pinpointlanguage": {
+    "S": "es-MX"
+  },
+  "voiceid": {
+    "S": ""
+  }
+}
+
